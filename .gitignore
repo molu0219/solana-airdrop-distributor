@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.anchor/
+.idea/
+.vscode/
+
+# Build artifacts
+target/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Secret keys and Private information
+*.json
+!package.json
+!tsconfig.json
+!Anchor.toml
+
+# Local environment
+status_report.csv
+claims.csv
+.DS_Store
